@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>小崔和小杨的秘密基地</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Weekend Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--web-fonts-->
+<link href='http://fonts.useso.com/css?family=Philosopher:400,700,400italic,700italic|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+ <script src="js/bootstrap.js"> </script>
+<script src="js/modernizr.custom.js"></script>
+<!--//js-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+       
+</head>
+  <!--start-我们的故事-->
+ <body class="cbp-spmenu-push">
+       <!--top-header-->
+        <div id="house" class="top-header">
+			  <div class="container">
+				 <p class="col-md-3 location"><i class="glyphicon glyphicon-map-marker"></i>16A, Honey Street</p>
+				 <p class="col-md-3 phone"><i class="glyphicon glyphicon-phone"></i> 655 7758 2068 54892</p>
+				 <p class="col-md-3 mail"><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">mail@example.com</a></p>
+				<div class="col-md-3 search">
+					<form>
+						<input type="submit" value="">
+						<input type="text" value="Search " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					</form>
+				</div>
+
+	              
+				<div class="clearfix"></div>
+			 </div> 
+			
+		</div>
+		<!--bottom-->
+		<audio src="想念的歌.mp3" controls> </audio>
+		  <section class="button">
+					<button id="showLeftPush"><img src="images/menu-icon.png" alt=""></button>
+		   </section>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Menu</h3>
+			<a href="index.html" class="active">和你的点点滴滴</a>
+						<a href="about.html">About us</a>
+						<a href="typography.html">services</a>
+						<a href="News.html">News</a>
+					    <a href="gallery.html">Gallery</a>
+						<a href="contact.html">Contact</a>
+
+		  </nav>
+	      <div class="banner">
+		        <div class="logo">
+					<a href="index.html"><h1>我们的<span>故事</span></h1><p>2018年以后...</p></a>
+				</div>
+		 </div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				showRightPush = document.getElementById( 'showRightPush' ),
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+				if( button !== 'showRightPush' ) {
+					classie.toggle( showRightPush, 'disabled' );
+				}
+			}
+		</script>
+	<!--bottom-grids-->
+  <div class="banner-bottom">
+	<div class="container">
+	        <h3 class="tittle">Happy Life</h3>
+           	 <div class="slider">
+                  <section class="slider">
+                      <div class="flexslider">
+	                      <ul class="slides">
+	                        <li>
+		                      <div class="bottom">					                	 
+								 <div class=" bottom-in bottom-grid">
+									<img class="img-responsive " src="images/s1.jpg" alt="" />  
+								 </div>
+								<div class=" bottom-in bottom-grid1">
+									<img class="img-responsive" src="images/s2.jpg" alt="" />  
+								 </div>
+								 <div class=" bottom-in bottom-grid2">
+									<img class="img-responsive " src="images/s3.jpg" alt="" />  
+								</div>
+								<div class=" bottom-in bottom-grid3">
+									<img class="img-responsive " src="images/s4.jpg" alt="" />  
+								</div>
+								<div class="clearfix"> </div>										
+							</div>
+  	    				</li>
+						 <li>
+		                      <div class="bottom">					                	 
+								 <div class=" bottom-in bottom-grid">
+									<img class="img-responsive " src="images/s3.jpg" alt="" />  
+								 </div>
+								<div class=" bottom-in bottom-grid1">
+									<img class="img-responsive" src="images/s4.jpg" alt="" />  
+								 </div>
+								 <div class=" bottom-in bottom-grid2">
+									<img class="img-responsive " src="images/s1.jpg" alt="" />  
+								</div>
+								<div class=" bottom-in bottom-grid3">
+									<img class="img-responsive " src="images/s2.jpg" alt="" />  
+								</div>
+								<div class="clearfix"> </div>										
+							</div>
+  	    				</li>
+						 <li>
+		                      <div class="bottom">					                	 
+								 <div class=" bottom-in bottom-grid">
+									<img class="img-responsive " src="images/s2.jpg" alt="" />  
+								 </div>
+								<div class=" bottom-in bottom-grid1">
+									<img class="img-responsive" src="images/s1.jpg" alt="" />  
+								 </div>
+								 <div class=" bottom-in bottom-grid2">
+									<img class="img-responsive " src="images/s4.jpg" alt="" />  
+								</div>
+								<div class=" bottom-in bottom-grid3">
+									<img class="img-responsive " src="images/s3.jpg" alt="" />  
+								</div>
+								<div class="clearfix"> </div>										
+							</div>
+  	    				</li>
+         			 </ul>
+        		</div>
+     		 </section>
+			  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+			  <!--flexslider-->
+			  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+			  <script defer src="js/jquery.flexslider.js"></script>
+			  <script type="text/javascript">
+			    $(function(){
+			      SyntaxHighlighter.all();
+			    });
+			    $(window).load(function(){
+			      $('.flexslider').flexslider({
+			        animation: "slide",
+			        start: function(slider){
+			          $('body').removeClass('loading');
+			        }
+			      });
+			    });
+			  </script>
+
+			 </div>
+		</div>	
+	</div>
+	<!--/services-->
+	  <div class="services">
+	      <div class="container">
+		   <h3 class="tittle">我们的日常生活</h3>
+		      <div class="serve-top">
+		         <div class="col-md-6 serve-section grid">
+		             <div class="col-md-6 serve-grid">
+		                	<figure class="effect-goliath">
+								<img class="img-responsive " src="images/ser1.jpg" alt="" />  
+								<figcaption>
+									<h2>weeke<span>nd</span></h2>
+									<a href="#">View more</a>
+									<p>Happy Life...</p>
+								</figcaption>			
+							</figure>
+	                 </div>
+					  <div class="col-md-6 serve-grid">
+		                	<figure class="effect-goliath">
+								<img class="img-responsive " src="images/ser2.jpg" alt="" />  
+								<figcaption>
+									<h2>weeke<span>nd</span></h2>
+									<a href="#">View more</a>
+									<p>Happy Life...</p>
+								</figcaption>			
+							</figure>
+	                 </div>
+					  <div class="col-md-6 serve-grid">
+		                	<figure class="effect-goliath">
+								<img class="img-responsive " src="images/ser3.jpg" alt="" />  
+								<figcaption>
+									<h2>weeke<span>nd</span></h2>
+									<a href="#">View more</a>
+									<p>Happy Life...</p>
+								</figcaption>			
+							</figure>
+	                 </div>
+					  <div class="col-md-6 serve-grid">
+		                	<figure class="effect-goliath">
+								<img class="img-responsive " src="images/ser4.jpg" alt="" />  
+								<figcaption>
+									<h2>weeke<span>nd</span></h2>
+									<a href="#">View more</a>
+									<p>Happy Life...</p>
+								</figcaption>			
+							</figure>
+	                 </div>
+						<div class="clearfix"> </div>					
+	             </div>	
+				 <div class="col-md-6 serve-icons">
+				     <h4 class="sub">始于心动，终于白首...</h4>
+					<div class="s-sub">
+						<div class="col-md-2 icon">
+						  <i class="glyphicon glyphicon-globe"></i>
+						</div>
+						<div class="col-md-10 serve-text">
+						 <p> 我们的相识是一个意外，但很庆幸这个意外没有让我们错过，让我明白了被坚定的选择是一件幸福的事情 </p>
+						</div>
+					     <div class="clearfix"> </div>	
+					 </div>
+					 <div class="s-sub">
+						<div class="col-md-2 icon">
+						  <i class="glyphicon glyphicon-ice-lolly-tasted"></i>
+						</div>
+						<div class="col-md-10 serve-text">
+						 <p> 你或许并不知道我有多爱你，哪怕无数遍想过要离开，可是一想到我身边没有你，你的身边也没有我了，我的心里就莫名难受。</p>
+						</div>
+					     <div class="clearfix"> </div>	
+					 </div>
+					 <div class="s-sub">
+						<div class="col-md-2 icon">
+						  <i class="glyphicon glyphicon-send"></i>
+						</div>
+						<div class="col-md-10 serve-text">
+						 <p>宝贝，本来这个是我打算结婚的时候在婚礼上在当着所有人的面给你看的，可是近几年的天灾人祸好多，我怕出现意外，所以我不想留下遗憾，能早一点给你看到就早点给你看到。</p>
+						</div>
+					     <div class="clearfix"> </div>	
+					 </div><div class="s-sub">
+						<div class="col-md-2 icon">
+						  <i class="glyphicon glyphicon-briefcase"></i>
+						</div>
+						<div class="col-md-10 serve-text">
+						 <!-- <p> 我想象过无数遍我们婚礼上的场景，我肯定会哭，但是不知道你会不会哭，会不会感谢我的父母含辛茹苦的将我养大，你会不会还会让我再哭泣，在婚礼上你会给我准备什么惊喜，我们的家以后会是什么样子？</p> -->
+						</div>
+					     <div class="clearfix"> </div>	
+					 </div>
+				 </div>
+				 <div class="clearfix"> </div>		
+	          </div>	
+	      </div>	
+	  </div>
+	  <!--start-events-->
+		<div class="news">
+		    <div class="container">
+			      <h3 class="tittle">News & Events</h3>
+			 <div class="news-article">
+			  <div class="col-md-6 article-post">
+				   <div class="col-md-3 post-meta">
+						<div class="meta-icon">
+							<div class="pic">
+								 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+							</div>
+						</div>
+						<ul class="ad-info">
+							 <li>21 Aug'15</li>
+							 <li> <a href="#">Author</a></li>
+							 <li> <a href="#">24 Comments</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+				  <a href="single.html" class="mask"><img src="images/b2.jpg" alt="image" class="img-responsive zoom-img"></a>
+					<a href="single.html"><h4>想对你说的话</h4></a>
+					<p>宝儿，猜猜我想对你说什么？嘿嘿，猜不着吧，其实，我很喜欢你，喜欢到想每天和你呆在一起，我也不知道自己怎么呢，老是喜欢发脾气，老是喜欢哭，以前跟你告别的时候心里不会难过，不会不舍，总抱着“没事儿的，下次就能见面了，用不了多久的”，可是现在，只要和你见面，就越发离不开你，想一直在一起，可能心里已经默默的把你和爸爸妈妈看的一样重要了吧。</p>
+					<div class="read">
+						<a class="button" href="single.html"><img src="images/read.png" alt="" /></a>
+					</div>
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>		
+				 <div class="col-md-6 article-post">
+				   <div class="col-md-3 post-meta">
+						<div class="meta-icon">
+							<div class="pic">
+							 <a href="single.html" > <i class="glyphicon glyphicon-picture"></i></a>
+							</div>
+						</div>
+						<ul class="ad-info">
+							 <li>21 Aug'15</li>
+							 <li> <a href="#">Author</a></li>
+							 <li> <a href="#">24 Comments</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+				  </div>
+				<div class="col-md-9 post-details">
+				 <a href="single.html" class="mask"><img src="images/b1.jpg" alt="image" class="img-responsive zoom-img"></a>
+
+					<a href="single.html"><h4>未完待续</h4></a>
+					<p>我们的未来未完待续......我老是期待要求你的改变，希望你学会怎样爱我，忽略了你也有你自己爱我的方式。就像我爱你，想把好的分享给你，看到好的视频分享给你，学会什么也想第一时间分享给你。想不到吧，你的宝贝这么厉害，自己悄悄在网上搜索教程，居然看懂了那么多难懂的代码，你也想不到此时此刻我正在熬夜敲键盘吧，因为马上要放假了，我想早点让你看到。我想告诉你的是，我也有我爱你的方式。我们坚信我们都是爱着彼此的。</p>
+					<div class="read">
+						<a class="button" href="single.html"><img src="images/read.png" alt="" /></a>
+					</div>
+				</div>
+				<!--post-details-->	
+				<div class="clearfix"> </div>
+				</div>	
+			    <div class="clearfix"> </div>				
+			</div>
+		</div>
+	</div>
+
+<!--/team-->
+	<div class="testi-m">
+		<div class="container">
+			 <h3 class="tittle three">Testimonials</h3>
+			 <div class="test">
+				<img src="images/t1.jpg" alt="name" />
+					<div class="test-text">
+					   <h4>David son</h4>
+					   <p><span> </span>希望你能记住曾经对我的所有承诺“我开心就好”，我今天才知道，这句话真正要做到真的好难，这是要爱一个人到什么程度才会做到的。</p>
+					</div>
+			 </div>
+		</div>
+	</div>
+<!--contact-->
+		   <div class="contact">
+		         <div class="col-md-6 contact-top">
+				     	<div class="point"> <i class="glyphicon glyphicon-map-marker"></i></div>
+					  <h3 class="tittle two">Find Us</h3>
+				      <h4>来我心里，就别走了吧？</h4>
+					     <div class="contact-ad">
+								<p>Address:这里是属于我们两个的秘密小基地<p>
+								<p>Phone:18708624546<p>
+								<p>E-mail :<a href="3013456556@QQ.com">3013456556@QQ.com</a></p>
+
+					     </div>
+			      </div>
+				  <div class="col-md-6 map">
+						<div class="black"> 
+						  <div class="map-l"> <i class="glyphicon glyphicon-map-marker"></i></div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+	       </div>
+	<!--//contact-->
+
+	<!--/footer-->
+			<div class="copy">
+		              <p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		            </div>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#house" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
